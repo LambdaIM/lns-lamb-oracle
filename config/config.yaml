@@ -1,0 +1,9 @@
+market:
+  url: 'https://pro-api.coinmarketcap.com/v1/cryptocurrency/quotes/latest?symbol=LAMB'
+  apiKey: ''
+
+lambda:
+  rpcUrl: ''
+  durationH: 2
+  privateKey: ''
+  oracleAddr: ''
