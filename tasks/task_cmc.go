@@ -71,7 +71,7 @@ func (c *Cmc) GetLambPriceFromMarket(secret []byte) error {
 	if 0 < value.Cmp(big.NewInt(0)) {
 		return errors.New("invalid LAMB price")
 	}
-	c.value = toGWei(big.NewFloat(price))
+	c.value = value
 	return nil
 }
 
